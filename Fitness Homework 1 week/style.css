@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header {
+    background-color: white;
+    padding: 30px;
+    border: black;
+    font-size: larger;
+    
+}
+
+.sidebar {
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(https://cdn.discordapp.com/attachments/844134967872585745/849610757154799666/bg-header.png) ;
+    border-width: medium;
+    border-color: black;
+    border-style: ridge;
+}
+
+.main {
+    background-color: white;
+    padding: 30px;
+    flex: 1;
+    text-decoration-style: solid;
+    text-align: justify;
+}
+
+.content{
+    display: flex;
+    flex: 1;
+}
+
+.h3{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
